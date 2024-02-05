@@ -1,7 +1,5 @@
 ![Gemini](https://github.com/SayedShaun/Know-Image-with-LLM/assets/126845316/382cd4a2-77ec-4c2e-bacb-7422b607248a)
 
-# Know Image with LLM
-
 Know Image with LLM is a Streamlit application that utilizes Google Gemini Pro to extract information from images. This repository contains the necessary files to run the application.
 
 ## Features
