@@ -1,0 +1,6 @@
+llama_index==0.9.43
+matplotlib==3.8.2
+Pillow==10.2.0
+python-dotenv==1.0.1
+Requests==2.31.0
+streamlit==1.31.0
