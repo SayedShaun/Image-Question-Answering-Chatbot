@@ -19,12 +19,13 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.image("Image/title.jpg")
 st.sidebar.title("Paste Image Link")
-input_url = st.sidebar.text_input("")
+input_url = st.sidebar.text_input(label="Input", label_visibility="hidden")
 st.sidebar.button("Submit", use_container_width=True)
-tab = st.sidebar.radio("", 
+tab = st.sidebar.radio("tab", 
                        ("Image Description",
                         "Hotel Finder",
-                        "Custom Query")
+                        "Custom Query"),
+                        label_visibility="hidden"
                         )
 
 def plot_image(image_url):
