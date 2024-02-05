@@ -17,7 +17,7 @@ Explore Image with LLM is a project that utilizes Google Gemini Pro to extract i
 
 ## Usage
 
-1. Clone the repository https://github.com/SayedShaun/Explore-Image-with-LLM.git
+1. Clone the repository "https://github.com/SayedShaun/Explore-Image-with-LLM.git"
 2. Add your Api to .env file. Example "GOOGLE_API_KEY = "Your API"
 3. Install the dependencies listed in `requirements.txt`.
 4. Run `app.py` to launch the Streamlit application.
