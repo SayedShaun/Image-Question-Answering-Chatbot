@@ -1,6 +1,6 @@
 ![Gemini](https://github.com/SayedShaun/Know-Image-with-LLM/assets/126845316/382cd4a2-77ec-4c2e-bacb-7422b607248a)
 
-Know Image with LLM is a Streamlit application that utilizes Google Gemini Pro to extract information from images. This repository contains the necessary files to run the application.
+Explore Image with LLM is a project that utilizes Google Gemini Pro to extract information from images. This repository contains the necessary files to run the application in local machine.
 
 ## Features
 
@@ -17,9 +17,10 @@ Know Image with LLM is a Streamlit application that utilizes Google Gemini Pro t
 
 ## Usage
 
-1. Install the dependencies listed in `requirements.txt`.
-2. Run `app.py` to launch the Streamlit application.
-3. Upload an image to extract information using Google Gemini Pro.
+1. Add your Api to .env file. Example "GOOGLE_API_KEY = "Your API"
+2. Install the dependencies listed in `requirements.txt`.
+3. Run `app.py` to launch the Streamlit application.
+4. Upload an image to extract information using Google Gemini Pro.
 
 ## Contributing
 
