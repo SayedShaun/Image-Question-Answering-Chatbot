@@ -25,7 +25,7 @@ class LLM:
     def hotel_finder(self):
         response = self.model.complete(
             prompt="""Where is this place City and Country tell in one word? 
-            Recommend some nearby holel based on this place""",
+            Recommend some nearby hotel based on this place""",
             image_documents=self.image_doc
         )
         return response
