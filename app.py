@@ -17,7 +17,12 @@ footer {visibility: hidden;}
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-st.image("Image/title.jpg")
+st.title("Image QA Chatbot")
+google_api_key = st.sidebar.text_input("Provide Your Google Gemini API Key")
+if not google_api_key:
+    st.write("Please Provide Your API then Try Again")
+    sys.exit(0)
+  
 st.sidebar.title("Paste Image Link")
 input_url = st.sidebar.text_input(label="Input", label_visibility="hidden")
 st.sidebar.button("Submit", use_container_width=True)
