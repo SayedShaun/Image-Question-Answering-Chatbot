@@ -8,9 +8,12 @@ from llama_index.multi_modal_llms.generic_utils import load_image_urls
 
 
 class LLM:
-    def __init__(self, place_image_link) -> None:
+    def __init__(self, place_image_link, api_key) -> None:
         self.image_link = place_image_link
-        self.model = GeminiMultiModal(model_name="models/gemini-pro-vision")
+        self.model = GeminiMultiModal(
+            model_name="models/gemini-pro-vision", 
+            api_key=api_key
+        )
         self.image_doc = load_image_urls(self.image_link)
 
     def describe_image(self):

@@ -46,7 +46,7 @@ else:
     sys.exit(0)
 
 
-gemini = LLM([input_url])
+gemini = LLM(place_image_link=[input_url], api_key=google_api_key)
 
 if tab=="Image Description":
     response = gemini.describe_image()
